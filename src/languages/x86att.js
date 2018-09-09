@@ -45,7 +45,7 @@ function(hljs) {
         // Special register
         '%cr0 %cr1 %cr2 %cr3 %cr4 %cr8 %dr0 %dr1 %dr2 %dr3 %dr8 %tr3 %tr4 %tr5 %tr6 %tr7',
       meta:
-        '.ascii .asciz .byte .cfi_def_cfa_offset .cfi_def_cfa_register .cfi_endproc .cfi_offset .cfi_startproc .file .globl .loc .long .macosx_version_min .p2align .quad .section .short .str .subsections_via_symbols'
+        '.ascii .asciz .byte .cfi_def_cfa_offset .cfi_def_cfa_register .cfi_endproc .cfi_offset .cfi_startproc .file .globl .loc .long .macosx_version_min .p2align .quad .section .short .str .subsections_via_symbols .text'
     },
     contains: [
       hljs.C_BLOCK_COMMENT_MODE,
